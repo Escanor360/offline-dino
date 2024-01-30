@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/offline-dino/static/css/main.7c602651.css",
+    "main.js": "/offline-dino/static/js/main.d2797ac2.js",
+    "index.html": "/offline-dino/index.html",
+    "main.7c602651.css.map": "/offline-dino/static/css/main.7c602651.css.map",
+    "main.d2797ac2.js.map": "/offline-dino/static/js/main.d2797ac2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c602651.css",
+    "static/js/main.d2797ac2.js"
+  ]
+}
