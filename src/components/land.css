@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+  /* Land.css */
+.land-image-slider {
+    width: 100%; /* Adjust the width according to your layout */
+    overflow: hidden;
+    margin-top: -43.3%;
+  }
+  
+  .land-image {
+    overflow-y: hidden;
+    width: 100%; /* Make the image fill the container */
+    /* Add any additional styling if needed */
+  }
+
+  @media screen and (min-width: 1920px) and (min-height: 1080px){
+    .land-image-slider {
+      width: 100%; /* Adjust the width according to your layout */
+      overflow: hidden;
+      
+    }
+  }
+  

@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#page{
+    height: 660px;
+    width: 100%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1697adb8-bfb5-49b1-85c1-efde49d71052/dcxuq07-97996a2d-1833-4256-bbf5-4b979098765b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzE2OTdhZGI4LWJmYjUtNDliMS04NWMxLWVmZGU0OWQ3MTA1MlwvZGN4dXEwNy05Nzk5NmEyZC0xODMzLTQyNTYtYmJmNS00Yjk3OTA5ODc2NWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-EFscCgfd20S5YLV7vTF00MzWmP-IsRkEJ2ARYVcx-w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#cloud {
+    padding-right: 40%;
+    width: 100px; /* Adjust the width of your image */
+    height: 100px; /* Adjust the height of your image */
+    position: absolute;
+    right: 0;
+    animation: moveLeft 200s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes moveLeft {
+    to {
+      right: calc(100% - 100px); /* Adjust the final position based on image width */
+    }
+  }
+  
+  #cloud1 {
+  
+  
+    padding-top: 5%;
+  
+    transform: scaleX(-1);
+    width: 100px; /* Adjust the width of your image */
+    height: 100px; /* Adjust the height of your image */
+    position: absolute;
+    right: 0;
+    animation: moveLeft 200s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes moveLeft {
+    to {
+      right: calc(100% - 100px); /* Adjust the final position based on image width */
+    }
+  }
+  
+  #cloud2 {
+    padding-top: 2%;
+    padding-left: 10%;
+  
+    transform: scaleX(-1);
+    width: 100px; /* Adjust the width of your image */
+    height: 100px; /* Adjust the height of your image */
+    position: absolute;
+    right: 0;
+    animation: moveLeft 200s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes moveLeft {
+    to {
+      right: calc(100% - 100px); /* Adjust the final position based on image width */
+    }
+  }
+
+  .jumping-image-container{
+    padding-top: 13.5%;
+    position: relative;
+  width: 100px;
+  height: 100px;
+  box-sizing: content-box; 
+}
+
+
+
+.jumping-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-out;
+  border: none;
+  box-sizing: content-box;
+}
+
+.jump {
+  animation: jumpAnimation 3s ease-out;
+}
+
+@keyframes jumpAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-180px); /* Adjust the height of the jump */
+  }
+}
+  
+
+
+  #cactus{
+    margin-top: 1%;
+    position: absolute;
+    right: 0;
+    animation: moveLeft 5s linear infinite; /* Adjust animation duration as needed */
+    overflow-x: hidden;
+ 
+  }
+  
+  @keyframes moveLeft {
+    to {
+      right: calc(100% - 100px); /* Adjust the final position based on image width */
+    }
+  }
+
+  @media screen and (min-width: 1920px) and (min-height: 1080px){
+
+    #page{
+      height: 826px;
+      width: 100%;
+      background-position-y: 35%;
+  }
+
+
+    .jumping-image-container{
+      padding-top: 22.5%;
+      position: relative;
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box; 
+  }
+  }
+
+  h6{
+    font-size: 30px;
+    color: greenyellow ;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+
